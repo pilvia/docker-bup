@@ -2,7 +2,7 @@
 Docker image for Bup https://bup.github.io/
 
 
-## Usage
+## Usage example
 ```
 docker run -v /folder/for/bup-repository:/root docker.io/pilvia/bup init
 docker run -v /folder/for/bup-repository:/root -v /folder/to/backup:/backupthis docker.io/pilvia/bup index /backupthis
